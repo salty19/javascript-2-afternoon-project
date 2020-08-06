@@ -28,7 +28,11 @@
 */
 
 // Code Here 
+function first(array){
+  console.log(array)
+}
 
+function 
 // Do not edit the code below.
 var names = ['Tyler', 'Cahlan', 'Ryan', 'Colt', 'Tyler', 'Blaine', 'Cahlan'];
 
