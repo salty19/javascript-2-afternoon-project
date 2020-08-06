@@ -52,8 +52,8 @@ var family = ['Tyler', 'Jordyn', 'Ryan', 'Chelsey', 'Ireland'];
 
 //Code Here
 function looper(family) {
-  for(let i = 0; i <= 4; i++)
-    alert(family[i])
+  for(let i = 0; i < family.length; i++)
+    alert (family[i])
 }
 
 
@@ -88,11 +88,15 @@ var nums = [1,2,3,6,22,98,45,23,22,12];
 
 //Code Here
 function evenFinder(nums) {
-  for(let i = 0; i <= nums.length -1; )
+  let nums2 = []
+  for(let i = 0; i < nums.length; i++) {
+    if(nums[i] % 2 === 0) {
+      nums2.push(nums[i])
+    }
+
+  }
+  return nums2
 }
-
-
-
 
 
 
