@@ -28,8 +28,9 @@
 */
 
 // Code Here 
-
-  
+function first(array, cb){
+  cb(array[0])
+}
 
 // Do not edit the code below.
 var names = ['Tyler', 'Cahlan', 'Ryan', 'Colt', 'Tyler', 'Blaine', 'Cahlan'];
@@ -127,7 +128,7 @@ uniq(names, function(uniqArr){
 //Code Here 
 function each (arr, cb){
   for (let i = 0; i < arr.length; i++){
-    cb(arr[i])
+    cb(arr[i],i)
   }
 }
 
@@ -147,6 +148,7 @@ each(names, function(item, indice){
 */
 
 // Code here
+
 
 // Do not edit the code below.
 var users = [

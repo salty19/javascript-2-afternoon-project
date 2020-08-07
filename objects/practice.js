@@ -32,26 +32,26 @@ let favoriteThings = {
   band: "Jimmy Eat World",
   food: "Burritos",
   person: "Brittany",
-  book: "Harry Potter",
+  book: "Catching Fire",
   movie: "August Rush",
   holiday: "Halloween"
 }
-console.log(favoriteThings.food);
 /*
   After you've made your object, use bracket or dot notation to add another key named 'car' with the value being your favorite car
   and then another key named 'brand' with the value being your favorite brand.
 */
 
 //Code here
-me.car = "Subaru BRZ";
-me.brand = "Some Brand Name";
+favoriteThings['car'] = 'ferrari'
+favoriteThings['brand'] = 'Burton'
 /*
   Now use bracket or dot notation to change the value of the food key in your favoriteThings object to be 'Chicken Nuggets'
   and change the value of the book key in your favoriteThings object to be 'Harry Potter'.
 */
 
 //Code here
-
+favoriteThings.food = 'Chicken Nuggets'
+favoriteThings.book = 'Harry Potter'
 ////////// PROBLEM 3 //////////
 
 /*
