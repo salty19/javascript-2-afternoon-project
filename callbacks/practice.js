@@ -109,6 +109,13 @@ contains(names, 'Colt', function(result){
 */
 
 //Code Here
+function uniq(array, cb)
+  let answer = []
+  array.forEach(element => {
+    if(!answer.includes(element)){
+      answer.push<element)
+    }
+  }
 
 // Do not edit the code below.
 uniq(names, function(uniqArr){
