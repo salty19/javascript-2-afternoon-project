@@ -71,6 +71,9 @@ last(names, function(lastName){
 */
 
 //Code Here
+function multiply(num1, num2, cb){
+  cb(num1 * num2)
+}
 
 // Do not edit the code below.
 multiply(4, 3, function(answer){
@@ -90,6 +93,14 @@ multiply(4, 3, function(answer){
 */
 
 //Code Here 
+function contains(array, name, cb){
+  for (let i=0; i<array.length; i++) {
+    if (array[i] === name) {
+      cb(true)
+    }
+  }
+  cb(false)
+}
 
 // Do not edit the code below.
 contains(names, 'Colt', function(result){
@@ -111,13 +122,6 @@ contains(names, 'Colt', function(result){
 */
 
 //Code Here
-function uniq(array, cb)
-  let answer = []
-  array.forEach(element => {
-    if(!answer.includes(element)){
-      answer.push<element)
-    }
-  }
 
 // Do not edit the code below.
 uniq(names, function(uniqArr){
@@ -135,11 +139,7 @@ uniq(names, function(uniqArr){
 */
 
 //Code Here 
-function each(arr, cb){
-  for (let i = 0; i < array.length; i++){
-    cb(arr[i],i)
-  }
-}
+
 
 // Do not edit the code below.
 each(names, function(item, indice){
