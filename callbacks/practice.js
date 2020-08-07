@@ -51,7 +51,9 @@ first(names, function(firstName){
 */
 
 //Code Here
-
+function last(array, cb){
+  cb(array[array.length -1])
+}
 // Do not edit the code below.
 last(names, function(lastName){
   console.log('The last name in names is ' + lastName);
@@ -133,8 +135,8 @@ uniq(names, function(uniqArr){
 */
 
 //Code Here 
-function each (arr, cb){
-  for (let i = 0; i < arr.length; i++){
+function each(arr, cb){
+  for (let i = 0; i < array.length; i++){
     cb(arr[i],i)
   }
 }
