@@ -147,3 +147,11 @@ user2.email = 'bryan.smith@devmounta.in';
 */
 
 //Code Here
+
+function makeCard(cardNumber, expirationDate, securityCode){
+  return {
+    cardNumber: cardNumber,
+    expirationDate: expirationDate,
+    securityCode: securityCode
+  }
+}

@@ -124,7 +124,6 @@ var numbersArray = [1,2,34,54,55,34,32,11,19,17,54,66,13];
 //Code Here
 
 
-
 ////////// PROBLEM 7 //////////
 
 // Do not edit the code below.
@@ -173,7 +172,14 @@ var myGroceryList = ['chips', 'pizza', 'hotpockets', 'MtnDew', 'corndogs'];
 */
 
 //Code Here
-
+/*
+  1. Check if both parameters are truthy, if not return empty array
+  2. Find if the item passed in, exist in our list
+  3. Use .includes to check if item is in array, if not return list
+  4. Use a for loop to determine the index of our item
+  5. Use splice to remove item
+  6. Return list
+*/
 
 
 ////////// PROBLEM 9 //////////
@@ -224,7 +230,14 @@ for(var i = 0; i < num2; i++){
 */
 
 //Code Here
-
+function longer(arr1, arr2){
+  console.log(arr1.length, arr2.length)
+  if(arr1.length > arr2.length){
+    return arr1
+  } else {
+    return arr2
+  }
+} 
 
 
 /*
