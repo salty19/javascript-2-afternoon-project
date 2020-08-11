@@ -122,15 +122,18 @@ contains(names, 'Colt', function(result){
 */
 
 //Code Here
+
 function uniq(arr, cb){
+  let modifiedArr = [];
+
   for (let i = 0; i < arr.length; i++){
     for (let j = arr.length -1; j > i; j--){
-      if(arr[i] === arr[j]){
-        arr.splice(i, 1)
+      if(arr[i] !== arr[j]){
+        modifiedArr.push(arr[i])
       }
     }
   }
-  cb(arr)
+  cd(modifiedArr)
 }
 
 // Do not edit the code below.

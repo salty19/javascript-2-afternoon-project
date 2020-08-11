@@ -116,7 +116,14 @@ user2.email = 'bryan.smith@devmounta.in';
 */
 
 //Code Here
-
+var user2 = {
+  name: 'Bryan',
+  age: 24,
+  pwHash: 'U+Ldlngx2BYQk',
+  email: 'BryanSmith33@gmail.com',
+  birthday: '05/02/1990',
+  username: 'bryansmith33'
+};
 /*
   Now add two methods (functions that are properties on objects) to your methodCollection object.
   One called 'alertHello' which alerts 'hello' and another method called 'logHello' which logs 'hello' to the console.
